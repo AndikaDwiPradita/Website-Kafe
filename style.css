@@ -43,7 +43,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 60px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -57,12 +57,12 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
     max-width: 1600px;
 }
 
 .navbar-logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -118,8 +118,6 @@ body{
 .home {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 100%;
   height: 65vh;
   background-image: url('images/background.jpg');
@@ -129,7 +127,7 @@ body{
 
 .home .konten h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: 20px;
   color: white;
@@ -138,7 +136,7 @@ body{
 
 .home .konten p {
   text-align: center;
-  font-size: 6rem;
+  font-size: 2rem;
   font-weight: 700;
   color: white;
   text-shadow: 8px 8px 12px black;
@@ -162,9 +160,9 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 10rem;
+  font-size: 3rem;
   margin: 20px;
-  border: 15px solid black;
+  border: 5px solid black;
 }
 
 .ListMenu {
@@ -172,7 +170,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 15px solid black;
+  border: 5px solid black;
   padding: 10%;
 }
 
@@ -180,21 +178,21 @@ body{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+
 }
 
 .ListMenu h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 10rem;
+  font-size: 2.5rem;
 }
 
 .ListMenu  p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .Worker {
@@ -209,29 +207,28 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 15px solid black;
-  font-size: 5rem;
+  border: 5px solid black;
   padding: 50px;
 }
 
 .WorkerImage {
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+
 }
 
 .ListWorker h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 10rem;
+  font-size: 2.5rem;
 }
 .ListWorker p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .foot {
@@ -246,211 +243,102 @@ body{
 
 .footer-text {
     color: white;
-    font-size: 10rem;
+    font-size: 2rem;
     letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 450px) {
-    .navbar-container {
-      padding: 0 1rem;
-    }
-    .navbar-logo {
-      font-size: 4rem;
-    }
-    .navbar-container .navbar-menu li a {
-        font-size: 3rem;
-        padding: 5px 15px;
-        top: 25px;
-    }
-}
 
-@media screen and (min-width: 450px) {
-  .navbar-container {
-    padding: 0 1rem;
-  }
-  
-  .navbar-logo {
-    font-size: 2rem;
-  }
-  
-  .navbar-container .navbar-menu li a {
-    font-size: 3rem;
-    padding: 5px 15px;
-    top: 50px;
-  }
+@media (max-width: 1000px){
+    .home{
+        gap: 4rem;
+    }
     
-  .home .konten h1 {
-    font-size: 3rem;
-  }
-  
-  .home .konten p {
-    font-size: 2rem;
-  }
-  
-  .TextMenu {
-    font-size: 5rem;
-    border: 5px solid black;
-  }
-  
-  .Menu {
-    grid-template-columns: 1fr;
-  }
-  
-  .ListMenu {
-    border: 5px solid black;
-    flex-wrap: wrap;
-  }
-  
-  .ListMenu img {
-    width: 80%;
-    height: 80%;
-  }
-  
-  .ListMenu h3 {
-    font-size: 2.5rem;
-  }
-  
-  .ListMenu p {
-    font-size: 1.5rem;
-  }
-  
-  .Worker {
-    grid-template-columns: 1fr;
-  }
-  
-  .ListWorker {
-    border: 5px solid black;
-    flex-wrap: wrap;
-  }
-  
-  .WorkerImage {
-    height: 50%;
-    width: 50%;
-  }
-  
-  .ListWorker h3 {
-    font-size: 3rem;
-  }
-  
-  .ListWorker p{
-    font-size: 2rem;
-  }
-  
-  .footer-text {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .navbar {
-    padding: 6rem;
-  }
-  
-  .navbar-logo {
-    font-size: 5rem;
-  }
-  
-  .navbar-container .navbar-menu li a {
-    font-size: 4.5rem;
-    color: white;
-  }
-  
-  .home .konten h1 {
-    font-size: 8rem;
-  }
-  
-  .home .konten p {
-    font-size: 4.5rem;
-  }
-  
-  .TextMenu {
-    font-size: 6rem;
-    border: 10px solid black;
-  }
-  
-  .Menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .ListMenu {
-    border: 10px solid black;
-    flex-wrap: wrap;
-  }
-  
-  .ListMenu img {
-    width: 80%;
-    height: 80%;
-  }
-  
-  .ListMenu h3 {
-    font-size: 5rem;
-  }
-  
-  .ListMenu p {
-    font-size: 3rem;
-  }
-  
-  .Worker {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .ListWorker {
-    border: 10px solid black;
-    flex-wrap: wrap;
-  }
-  
-  .WorkerImage {
-    height: 50%;
-    width: 50%;
-  }
-  
-  .ListWorker h3 {
-    font-size: 5rem;
-  }
-  
-  .ListWorker p{
-    font-size: 4.5rem;
-  }
-  
-  .footer-text {
-    font-size: 5rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-    .navbar {
-        backdrop-filter: none;
-        position: fixed;
+    .container{
+      gap: 4rem;
     }
-    .navbar-container .navbar-menu {
-        display: none;
+}
+
+@media(max-width:995px){
+    .home{
         flex-direction: column;
-        align-self: flex-start;
-        gap: 1.7rem !important;
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        top: 50px;
-        right: 0;
-        box-shadow: 0 10px 10px rgba(0 0 0 0.5);
-        background-color: white;
+        margin: 5rem 4rem;
     }
-    .navbar-toggle {
-      display: block;
-      z-index: 999;
+
+    .home .home-content h3{
+        font-size: 2.5rem;
     }
-      
-    .navbar-toggle.active .bar:nth-child(2) {
-      opacity: 0;
+
+    .home-content h1{
+        font-size: 5rem;
     }
-    
-    .navbar-toggle.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
     }
-    
-    .navbar-toggle.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
+}
+
+@media(max-width: 880px){
+  .navbar {
+    backdrop-filter: none;
+    position: fixed;
+  }
+  
+  .navbar-container .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 1.7rem !important;
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    top: 80px;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 10px 10px rgba(0 0 0 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar-toggle {
+    display: block;
+    z-index: 999;
+  }
+  
+  .navbar-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+  }
+  .navbar-toggle.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  }
+  .navbar-toggle.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  }
+  
+}
+
+/** Responsif Layout **/
+@media(max-width: 600px) {
+  .Menu {
+    grid-template-columns: 1fr;
+  }
+
+  .Worker {
+    grid-template-columns: 1fr;
+  }
+
+  .WorkerImage {
+    width: 50%;
+  }
+
+  .home .konten h1 {
+    font-size: 3rem;
+  }
+  
+  .home .konten p {
+    font-size: 2rem;
+  }
+
+  .TextMenu h3 {
+    font-size: 3rem;
+  }
 }
