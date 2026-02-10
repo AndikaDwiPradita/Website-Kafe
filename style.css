@@ -342,3 +342,27 @@ body{
     font-size: 3rem;
   }
 }
+
+@media(max-width: 768px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 1200px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 1500px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 2000px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
