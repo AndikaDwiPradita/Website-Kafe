@@ -324,7 +324,7 @@ body{
 @media(max-width: 2000px) {
 
   .navbar-container .navbar-menu li a {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .home .konten h1 {
@@ -353,7 +353,7 @@ body{
 @media(max-width: 1500px) {
 
   .navbar-container .navbar-menu li a {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .home .konten h1 {
@@ -469,4 +469,5 @@ body{
   .ListMenu p {
      font-size: 2rem;
   }
+
 }
