@@ -16,7 +16,6 @@ html{
 }
 
 header{
-    margin-top: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -317,6 +316,74 @@ body{
 }
 
 /** Responsif Layout **/
+@media(max-width: 2000px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 1500px) {
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 1200px) {
+  .home {
+    margin: 0;
+  }
+
+  .home .konten h1 {
+    font-size: 3.5rem;
+  }
+  
+  .home .konten p {
+    font-size: 1.7rem;
+  }
+
+  .TextMenu h3 {
+    font-size: 3rem;
+  }
+
+  .navbar-container .navbar-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.7s ease;
+    white-space: nowrap;
+}
+
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
+@media(max-width: 768px) {
+  .home {
+    margin: 0;
+  }
+
+  .home .konten h1 {
+    font-size: 3.5rem;
+  }
+  
+  .home .konten p {
+    font-size: 1.5rem;
+  }
+
+  .TextMenu h3 {
+    font-size: 3rem;
+  }
+
+  .WorkerImage {
+    width: 50%;
+  }
+}
+
 @media(max-width: 600px) {
   .Menu {
     grid-template-columns: 1fr;
@@ -330,39 +397,19 @@ body{
     width: 50%;
   }
 
+  .home {
+    margin: 0;
+  }
+
   .home .konten h1 {
     font-size: 3rem;
   }
   
   .home .konten p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .TextMenu h3 {
     font-size: 3rem;
-  }
-}
-
-@media(max-width: 768px) {
-  .WorkerImage {
-    width: 50%;
-  }
-}
-
-@media(max-width: 1200px) {
-  .WorkerImage {
-    width: 50%;
-  }
-}
-
-@media(max-width: 1500px) {
-  .WorkerImage {
-    width: 50%;
-  }
-}
-
-@media(max-width: 2000px) {
-  .WorkerImage {
-    width: 50%;
   }
 }
