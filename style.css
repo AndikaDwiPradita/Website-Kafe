@@ -81,10 +81,10 @@ body{
 
 .navbar-container .navbar-menu li a {
     text-decoration: none;
-    color: black;
-    font-size: 4rem;
-    font-weight: 500;
-    padding: 10px 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 5px 5px;
     border-radius: 20px;
     border: 2px solid transparent;
     transition: all 0.7s ease;
@@ -117,6 +117,7 @@ body{
 .home {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: 65vh;
   background-image: url('images/background.jpg');
@@ -291,11 +292,15 @@ body{
     position: absolute;
     height: 100vh;
     width: 250px;
-    top: 80px;
+    top: 60px;
     right: 0;
     padding: 5rem 1.5rem;
     box-shadow: 0 10px 10px rgba(0 0 0 0.5);
     backdrop-filter: blur(10px);
+  }
+
+  .navbar-container .navbar-menu li a {
+    color: black;
   }
   
   .navbar-toggle {
@@ -317,45 +322,89 @@ body{
 
 /** Responsif Layout **/
 @media(max-width: 2000px) {
+
+  .navbar-container .navbar-menu li a {
+    font-size: 4rem;
+  }
+
+  .home .konten h1 {
+    font-size: 4rem;
+  }
+  
+  .home .konten p {
+    padding: 0px 10px;
+    font-size: 2.5rem;
+  }
+
+  .ListMenu h3 {
+    margin: 15px 0px;
+    font-size: 3.5rem;
+  }
+
+  .ListMenu p {
+    font-size: 2.5rem;
+  }
+
   .WorkerImage {
     width: 50%;
   }
 }
 
 @media(max-width: 1500px) {
+
+  .navbar-container .navbar-menu li a {
+    font-size: 3.5rem;
+  }
+
+  .home .konten h1 {
+    font-size: 5rem;
+  }
+  
+  .home .konten p {
+    padding: 0px 10px;
+    font-size: 2.3rem;
+  }
+
+  .ListMenu h3 {
+    margin: 15px 0px;
+    font-size: 3.5rem;
+  }
+
+  .ListMenu p {
+    font-size: 2.5rem;
+  }
+
   .WorkerImage {
     width: 50%;
   }
 }
 
 @media(max-width: 1200px) {
+
+  .navbar-container .navbar-menu li a {
+    font-size: 2.5rem;
+  }
+
   .home {
     margin: 0;
   }
 
   .home .konten h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
   
   .home .konten p {
-    font-size: 1.7rem;
+    padding: 0px 10px;
+    font-size: 1.6rem;
   }
 
-  .TextMenu h3 {
+  .ListMenu h3 {
     font-size: 3rem;
   }
 
-  .navbar-container .navbar-menu li a {
-    text-decoration: none;
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    transition: all 0.7s ease;
-    white-space: nowrap;
-}
+  .ListMenu P {
+    font-size: 2rem;
+  }
 
   .WorkerImage {
     width: 50%;
@@ -375,12 +424,16 @@ body{
     font-size: 1.5rem;
   }
 
-  .TextMenu h3 {
-    font-size: 3rem;
+  .ListMenu h3 {
+    font-size: 2.4rem;
+  }
+
+  .ListMenu p {
+    font-size: 2rem;
   }
 
   .WorkerImage {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -409,7 +462,11 @@ body{
     font-size: 1.5rem;
   }
 
-  .TextMenu h3 {
-    font-size: 3rem;
+  .ListMenu h3 {
+    font-size: 2.5rem;
+  }
+
+  .ListMenu p {
+     font-size: 2rem;
   }
 }
